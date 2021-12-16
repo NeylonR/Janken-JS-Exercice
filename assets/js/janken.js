@@ -31,13 +31,13 @@ const changeJankenDom = function(side, image,){
 const getLeftJankenOption = function(){
     getRandomJankenOption();
     if(jankenOption == 1){
-        changeJankenDom(getLeftJanken, "url(../assets/img/stone.png");
+        changeJankenDom(getLeftJanken, "url(assets/img/stone.png");
         return jankenLeftOption = jankenOption;
     } else if(jankenOption == 2){
-        changeJankenDom(getLeftJanken, "url(../assets/img/leaf.png");
+        changeJankenDom(getLeftJanken, "url(assets/img/leaf.png");
         return jankenLeftOption = jankenOption;
     } else if(jankenOption == 3){
-        changeJankenDom(getLeftJanken, "url(../assets/img/scissors.png");
+        changeJankenDom(getLeftJanken, "url(assets/img/scissors.png");
         return jankenLeftOption = jankenOption;
     }
 }
@@ -46,13 +46,13 @@ const getLeftJankenOption = function(){
 const getRightJankenOption = function(){
     getRandomJankenOption();
     if(jankenOption == 1){
-        changeJankenDom(getRightJanken, "url(../assets/img/stone.png");
+        changeJankenDom(getRightJanken, "url(assets/img/stone.png");
         return jankenRightOption = jankenOption;
     } else if(jankenOption == 2){
-        changeJankenDom(getRightJanken, "url(../assets/img/leaf.png");
+        changeJankenDom(getRightJanken, "url(assets/img/leaf.png");
         return jankenRightOption = jankenOption;
     } else if(jankenOption == 3){
-        changeJankenDom(getRightJanken, "url(../assets/img/scissors.png");
+        changeJankenDom(getRightJanken, "url(assets/img/scissors.png");
         return jankenRightOption = jankenOption;
     }
 }
